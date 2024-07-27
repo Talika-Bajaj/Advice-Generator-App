@@ -36,13 +36,12 @@ main {
     border-radius: 8px;
     display: grid;
     grid-template-columns: 100%;
-    gap: 25px;
+    gap: 28px;
     background-color: var(--Dark_Grayish_Blue);
     text-align: center;
 }
 
 .heading {
-    font-size: 11px;
     color: var(--Neon_Green);
     text-transform: uppercase;
     letter-spacing: 5px;
