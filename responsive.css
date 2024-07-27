@@ -1,0 +1,11 @@
+/* @media screen and (width>= 375px) {
+    .card {
+        width: auto;
+    }
+} */
+
+@media screen and (width>= 550px) {
+    .card {
+        width: 500px;
+    }
+}
