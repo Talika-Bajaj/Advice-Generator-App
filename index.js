@@ -18,3 +18,22 @@ async function getAdvice(params) {
 generateAdvice.addEventListener('click', () => {
     getAdvice();
 })
+
+function updateImageSrc() {
+    const dividerImg = document.getElementById('divider');
+
+    const smallImageSrc = "images/pattern-divider-mobile.svg"; // Path to the smaller image
+    const largeImageSrc = "images/pattern-divider-desktop.svg"; // Path to the larger image
+
+    if (window.innerWidth < 600) {
+        dividerImg.src = smallImageSrc;
+    } else {
+        dividerImg.src = largeImageSrc;
+    }
+}
+
+// Initial check
+updateImageSrc();
+
+// Update image source on window resize
+window.addEventListener('resize', updateImageSrc);
