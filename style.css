@@ -9,13 +9,13 @@
 
 :root {
     --Light_Cyan: hsl(193, 38%, 86%);
---Neon_Green: hsl(150, 100%, 66%);
+    --Neon_Green: hsl(150, 100%, 66%);
 
- /* Neutral */
+    /* Neutral */
 
---Grayish_Blue: hsl(217, 19%, 38%);
---Dark_Grayish_Blue: hsl(217, 19%, 24%);
---Dark_Blue: hsl(218, 23%, 16%);
+    --Grayish_Blue: hsl(217, 19%, 38%);
+    --Dark_Grayish_Blue: hsl(217, 19%, 24%);
+    --Dark_Blue: hsl(218, 23%, 16%);
 }
 
 body {
@@ -76,7 +76,5 @@ main {
 }
 
 #btn:hover {
-    /* background-color: hsl(150, 100%, 70%); */
     box-shadow: 0px 0px 20px 2px var(--Neon_Green);
 }
-
